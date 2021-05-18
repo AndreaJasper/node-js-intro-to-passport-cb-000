@@ -1,0 +1,112 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js install --no-lockfile
+
+PATH: 
+  /var/opt/rails/bin:/var/opt/httpserver/bin:/var/opt/atom/bin:/var/opt/shotgun/bin:/var/opt/rackup/bin:/var/opt/jekyll/bin:/usr/local/rvm/gems/ruby-2.6.1/bin:/usr/local/rvm/gems/ruby-2.6.1@global/bin:/usr/local/rvm/rubies/ruby-2.6.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/rvm/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  8.16.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/congenial-robot-4113/node-js-intro-to-passport-cb-000/package.json: Unexpected token < in JSON at position 0
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:304:30)
+      at /usr/share/yarn/lib/cli.js:315:13
+      at <anonymous>
+
+npm manifest: 
+  <<<<<<< HEAD
+  {
+    "name": "node-js-intro-to-passport",
+    "version": "1.0.0",
+    "description": "Introduction to Passport",
+    "main": "",
+    "directories": {
+      "test": "test"
+    },
+    "scripts": {
+      "test": "export NODE_ENV=testing; mocha -R mocha-multi --reporter-options spec=-,json=.results.json",
+      "start": "export NODE_ENV=development; node run-server.js"
+    },
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "mocha": "^2.4.5",
+      "mocha-multi": "^0.9.0",
+      "supertest": "^1.2.0",
+      "unexpected": "^10.13.2"
+    },
+    "keywords": [
+      "node"
+    ],
+    "author": "Ethan Miller",
+    "license": "ISC",
+    "dependencies": {
+      "bcrypt": "^0.8.7",
+      "body-parser": "^1.15.1",
+      "bookshelf": "^1.0.1",
+      "connect-flash": "^0.1.1",
+      "cookie-parser": "^1.4.2",
+      "express": "^4.13.4",
+      "express-handlebars": "^3.0.0",
+      "express-session": "^1.13.0",
+      "knex": "^0.19.5",
+      "passport": "^0.4.0",
+      "passport-local": "^1.0.0",
+      "pg": "^7.14.0"
+    }
+  }
+  =======
+  {
+    "name": "node-js-intro-to-passport",
+    "version": "1.0.0",
+    "description": "Introduction to Passport",
+    "main": "",
+    "directories": {
+      "test": "test"
+    },
+    "scripts": {
+      "test": "export NODE_ENV=testing; mocha -R mocha-multi --reporter-options spec=-,json=.results.json",
+      "start": "export NODE_ENV=development; node run-server.js"
+    },
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "mocha": "^2.5.3",
+      "mocha-multi": "^0.9.0",
+      "supertest": "^1.2.0",
+      "unexpected": "^10.13.2"
+    },
+    "keywords": [
+      "node"
+    ],
+    "author": "Ethan Miller",
+    "license": "ISC",
+    "dependencies": {
+      "bcrypt": "^0.8.7",
+      "body-parser": "^1.15.1",
+      "bookshelf": "^0.9.5",
+      "connect-flash": "^0.1.1",
+      "cookie-parser": "^1.4.2",
+      "express": "^4.13.4",
+      "express-handlebars": "^3.0.0",
+      "express-session": "^1.13.0",
+      "knex": "^0.10.0",
+      "passport": "^0.3.2",
+      "passport-local": "^1.0.0",
+      "pg": "^4.5.5"
+    }
+  }
+  >>>>>>> 0d4cd1d1c69679243f43c8c04ab307cda09a1e07
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
